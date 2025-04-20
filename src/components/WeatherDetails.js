@@ -39,7 +39,6 @@ function WeatherDetails({temp, humidity,
     let timeStr = `${date.getHours()}:${date.getMinutes()}`
   return (
     <>
-      <article className='widget'>
           <div className='weatherIcon'>
               <i className={`wi ${weatherState}`}>
                   </i></div>
@@ -91,7 +90,7 @@ function WeatherDetails({temp, humidity,
                         </div>
                       </div>
                   </div>
-                  </article>  
+                
     </>
   )
 }
